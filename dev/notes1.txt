@@ -1,0 +1,7 @@
+Goal: Explore the change in language for proposed state policy bills from 1991 - 2018 across
+separate policy areas.
+
+To-Do List:
+1) Understand how to use Harvard data
+2) Conduct basic EDA using VADER sentiment analysis
+3) Visualize Data
