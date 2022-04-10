@@ -47,6 +47,9 @@ def scrape_urls(directory_url: str) -> list:
     
     return urls
 
+if not (Path.cwd() / 'data').exists():
+    os.mkdir(Path() / 'data')
+
 for i in range(1999, 2022):
     year_id = str(i) + str(i + 1)
 
